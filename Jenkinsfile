@@ -1,5 +1,5 @@
 pipeline{
-	agent any
+	agent {label 'LinuxNode'}
 	stages{
 		stage("Pull Latest Image"){
 			steps{
