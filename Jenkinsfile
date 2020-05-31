@@ -1,5 +1,5 @@
 pipeline{
-	agent{}	
+	agent any	
 	stages{
 		stage("Pull Latest Image"){
 			steps{
