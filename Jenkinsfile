@@ -1,5 +1,4 @@
-pipeline{
-	agent {label 'LinuxNode'}
+pipeline{	
 	stages{
 		stage("Pull Latest Image"){
 			steps{
